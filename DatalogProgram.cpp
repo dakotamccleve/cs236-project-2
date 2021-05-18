@@ -24,7 +24,7 @@ std::string DatalogProgram::toString() {
     }
     ss << "Domain(" << domain.size() << "):\n";
     for (std::set<std::string>::iterator i = domain.begin(); i != domain.end(); i++) {
-        ss << "  '" << *i << '\n';
+        ss << "  " << *i << '\n';
     }
     return ss.str();
 }

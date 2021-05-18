@@ -268,6 +268,7 @@ void Parser::queryList(std::vector<Token*> tokens) {
 
 
 Predicate* Parser::headPredicate(std::vector<Token*> tokens) {
+    int headPredicateIt = it;
     if(tokens.at(it)->getTokenType() == "ID") {
         it++;
     }
@@ -293,7 +294,6 @@ Predicate* Parser::headPredicate(std::vector<Token*> tokens) {
     else {
         throw tokens.at(it);
     }
-    int headPredicateIt = it;
     Predicate* headPredicate = new Predicate(tokens.at(headPredicateIt)->getData());
     headPredicateIt++;
     while(headPredicateIt < it) {

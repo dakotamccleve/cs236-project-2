@@ -20,7 +20,5 @@ public:
 private:
     std::string name;
     std::vector<Parameter*> parameters;
-
-
 };
 
