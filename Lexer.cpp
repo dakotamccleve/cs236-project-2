@@ -14,7 +14,6 @@ Lexer::Lexer() {
 }
 
 Lexer::~Lexer() {
-    // TODO: need to clean up the memory in `automata` and `tokens`
 }
 
 void Lexer::CreateAutomata() {

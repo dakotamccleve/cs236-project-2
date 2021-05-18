@@ -1,4 +1,5 @@
 #include "Lexer.h"
+#include "Parser.h"
 
 #include <iostream>
 #include <sstream>
@@ -7,6 +8,7 @@
 int main(int argc, char** argv) {
 
     Lexer* lexer = new Lexer();
+    Parser* parser = new Parser();
 
     std::ifstream inputFile;
     inputFile.open(argv[1]);
@@ -17,6 +19,8 @@ int main(int argc, char** argv) {
     lexer->Run(inputString);
     lexer->printTokens();
 
+
+    delete parser;
     delete lexer;
 
     return 0;
