@@ -1,5 +1,5 @@
-#ifndef TOKEN_H
-#define TOKEN_H
+#pragma once
+
 #include <string>
 
 enum TokenType {
@@ -17,7 +17,7 @@ public:
     Token(TokenType type, std::string description, int line);
     std::string tokenToString(TokenType type);
     std::string toString();
+    std::string getTokenType();
+    std::string getData();
 };
-
-#endif // TOKEN_H
 

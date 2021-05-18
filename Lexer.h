@@ -1,5 +1,5 @@
-#ifndef LEXER_H
-#define LEXER_H
+#pragma once
+
 #include <vector>
 #include <string>
 #include <cctype>
@@ -20,10 +20,9 @@ public:
     ~Lexer();
 
     void Run(std::string& input);
+    std::vector<Token*> getTokens();
     
     void printTokens();
 
 };
-
-#endif // LEXER_H
 

@@ -52,3 +52,11 @@ std::string Token::tokenToString(TokenType type) {
             return "Uh Oh";
     }
 }
+
+std::string Token::getTokenType() {
+    return this->tokenToString(type);
+}
+
+std::string Token::getData() {
+    return this->data;
+}

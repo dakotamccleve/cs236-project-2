@@ -18,6 +18,10 @@ CMakeFiles/project_2_main.dir/CommentAutomaton.cpp.obj: ../Token.h
 
 CMakeFiles/project_2_main.dir/DatalogProgram.cpp.obj: ../DatalogProgram.cpp
 CMakeFiles/project_2_main.dir/DatalogProgram.cpp.obj: ../DatalogProgram.h
+CMakeFiles/project_2_main.dir/DatalogProgram.cpp.obj: ../Parameter.h
+CMakeFiles/project_2_main.dir/DatalogProgram.cpp.obj: ../Predicate.h
+CMakeFiles/project_2_main.dir/DatalogProgram.cpp.obj: ../Rule.h
+CMakeFiles/project_2_main.dir/DatalogProgram.cpp.obj: ../Token.h
 
 CMakeFiles/project_2_main.dir/IDAutomaton.cpp.obj: ../Automaton.h
 CMakeFiles/project_2_main.dir/IDAutomaton.cpp.obj: ../IDAutomaton.cpp
@@ -42,16 +46,26 @@ CMakeFiles/project_2_main.dir/MatcherAutomaton.cpp.obj: ../Token.h
 
 CMakeFiles/project_2_main.dir/Parameter.cpp.obj: ../Parameter.cpp
 CMakeFiles/project_2_main.dir/Parameter.cpp.obj: ../Parameter.h
+CMakeFiles/project_2_main.dir/Parameter.cpp.obj: ../Token.h
 
+CMakeFiles/project_2_main.dir/Parser.cpp.obj: ../DatalogProgram.h
+CMakeFiles/project_2_main.dir/Parser.cpp.obj: ../Parameter.h
 CMakeFiles/project_2_main.dir/Parser.cpp.obj: ../Parser.cpp
 CMakeFiles/project_2_main.dir/Parser.cpp.obj: ../Parser.h
+CMakeFiles/project_2_main.dir/Parser.cpp.obj: ../Predicate.h
+CMakeFiles/project_2_main.dir/Parser.cpp.obj: ../Rule.h
 CMakeFiles/project_2_main.dir/Parser.cpp.obj: ../Token.h
 
+CMakeFiles/project_2_main.dir/Predicate.cpp.obj: ../Parameter.h
 CMakeFiles/project_2_main.dir/Predicate.cpp.obj: ../Predicate.cpp
 CMakeFiles/project_2_main.dir/Predicate.cpp.obj: ../Predicate.h
+CMakeFiles/project_2_main.dir/Predicate.cpp.obj: ../Token.h
 
+CMakeFiles/project_2_main.dir/Rule.cpp.obj: ../Parameter.h
+CMakeFiles/project_2_main.dir/Rule.cpp.obj: ../Predicate.h
 CMakeFiles/project_2_main.dir/Rule.cpp.obj: ../Rule.cpp
 CMakeFiles/project_2_main.dir/Rule.cpp.obj: ../Rule.h
+CMakeFiles/project_2_main.dir/Rule.cpp.obj: ../Token.h
 
 CMakeFiles/project_2_main.dir/StringAutomaton.cpp.obj: ../Automaton.h
 CMakeFiles/project_2_main.dir/StringAutomaton.cpp.obj: ../StringAutomaton.cpp
@@ -62,8 +76,12 @@ CMakeFiles/project_2_main.dir/Token.cpp.obj: ../Token.cpp
 CMakeFiles/project_2_main.dir/Token.cpp.obj: ../Token.h
 
 CMakeFiles/project_2_main.dir/main.cpp.obj: ../Automaton.h
+CMakeFiles/project_2_main.dir/main.cpp.obj: ../DatalogProgram.h
 CMakeFiles/project_2_main.dir/main.cpp.obj: ../Lexer.h
+CMakeFiles/project_2_main.dir/main.cpp.obj: ../Parameter.h
 CMakeFiles/project_2_main.dir/main.cpp.obj: ../Parser.h
+CMakeFiles/project_2_main.dir/main.cpp.obj: ../Predicate.h
+CMakeFiles/project_2_main.dir/main.cpp.obj: ../Rule.h
 CMakeFiles/project_2_main.dir/main.cpp.obj: ../Token.h
 CMakeFiles/project_2_main.dir/main.cpp.obj: ../main.cpp
 

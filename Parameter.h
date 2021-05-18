@@ -2,13 +2,19 @@
 // Created by dakot on 5/15/2021.
 //
 
-#ifndef CS236_PROJECT_2_PARAMETER_H
-#define CS236_PROJECT_2_PARAMETER_H
-
+#pragma once
+#include "Token.h"
 
 class Parameter {
+public:
+    Parameter();
+    ~Parameter();
+    Parameter(Token* token) {
+        this->token = token;
+    }
+    std::string toString();
+
+private:
+    Token* token;
 
 };
-
-
-#endif //CS236_PROJECT_2_PARAMETER_H

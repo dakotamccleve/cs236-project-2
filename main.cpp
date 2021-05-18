@@ -17,7 +17,8 @@ int main(int argc, char** argv) {
     std::string inputString = fout.str();
 
     lexer->Run(inputString);
-    lexer->printTokens();
+    parser->Parse(lexer->getTokens());
+ //   lexer->printTokens();
 
 
     delete parser;
